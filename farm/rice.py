@@ -1,5 +1,9 @@
+from farm.crop import Crop
 
-class Rice():
-    # YOUR CODE HERE
-    pass
+class Rice(Crop):
 
+    def water(self):
+        self.grains += 5
+
+    def transplant(self):
+        self.grains += 10
