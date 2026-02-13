@@ -46,4 +46,4 @@ if rice.ripe():
     print("The rice crop is ripe")
 else:
     print("The rice crop is not ripe")
-
+    
